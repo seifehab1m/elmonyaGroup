@@ -57,9 +57,9 @@ a:hover {
 }
 
 
-.logo
+.logoImage
 {
-    width: 150px !;
+    width: 150px !important;
     height: 70px;
 }
 
