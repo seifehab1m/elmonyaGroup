@@ -59,7 +59,7 @@ a:hover {
 
 .logo
 {
-    width: 150px;
+    width: 150px !;
     height: 70px;
 }
 
@@ -125,14 +125,11 @@ nav li a {
         padding-right: 0px;
         padding-left: 0px;
     }
-
     .navTitle .cloud,
     .navTitle .rocket {
         display: none;
     }
-
 }
-
 /* --------------------------------------- Home Page -------------------------------------*/
 
 .homebg
@@ -156,7 +153,6 @@ nav li a {
     margin: auto;
     display: flex;
     align-items: center;
-    background-color: #E02B1D;
 }
 h2
 {
