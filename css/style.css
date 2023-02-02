@@ -1,0 +1,166 @@
+:root {
+    --maxWidth: 1170px;
+    --paddingPc: 98px;
+    --paddingTab: 24px;
+    --paddingMob: 16px;
+    --mainColor: #F7D904;
+    --redColor: #E02B1D;
+    --colorMuted: #7E7E7E;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    /* direction: rtl; */
+}
+
+@font-face {
+
+    font-family: "BalooBold";
+    src: url('../fonts/Baloo2-Bold.ttf');
+}
+
+@font-face {
+
+    font-family: "Baloosemi";
+    src: url('../fonts/Baloo2-SemiBold.ttf');
+}
+
+@font-face {
+
+    font-family: "BalooMedium";
+    src: url('../fonts/Baloo2-Medium.ttf');
+}
+
+@font-face {
+
+    font-family: "BalooRegular";
+    src: url('../fonts/Baloo2-Regular.ttf');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Baloo 2', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--mainColor) !important;
+}
+
+
+.logo
+{
+    width: 150px;
+    height: 70px;
+}
+
+
+/* Navbar */
+nav {
+    padding-left: var(--paddingPc) !important;
+    padding-right: 98px !important;
+    z-index: 999999;
+}
+
+nav li {
+    font-size: 18px;
+    font-family: "BalooRegular";
+    width: fit-content;
+    white-space: nowrap;
+}
+
+nav li:not(:last-child) {
+    padding-right: 20px;
+}
+nav li a {
+    color: #000000 !important;
+}
+
+.active {
+    color: var(--mainColor) !important;
+}
+
+
+
+
+/* Navbar Media Query */
+@media (max-width: 1365px) {
+    nav {
+        padding-left: var(--paddingTab) !important;
+        padding-right: var(--paddingTab) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding-left: var(--paddingMob) !important;
+        padding-right: var(--paddingMob) !important;
+    }
+}
+
+/* navTitle Media Query */
+@media (max-width: 1365px) {
+
+
+
+    .navTitle .title h3 {
+        font-size: 35px;
+        color: #111111;
+        font-family: "BalooBold";
+    }
+
+}
+
+@media (max-width: 768px) {
+    .navTitle {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .navTitle .cloud,
+    .navTitle .rocket {
+        display: none;
+    }
+
+}
+
+/* --------------------------------------- Home Page -------------------------------------*/
+
+.homebg
+{
+    margin-top: 70px
+}
+.carousel-inner
+{
+    display: flex;
+    align-items: center;
+}
+.carousel-item
+{
+    margin-top: 10px;
+
+}
+.carousel-item .image
+{
+    height: 60vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: #E02B1D;
+}
+h2
+{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
