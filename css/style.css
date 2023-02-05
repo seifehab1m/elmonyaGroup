@@ -98,7 +98,10 @@ nav li a {
     color: var(--mainColor) !important;
 }
 
-
+.dropdown:focus
+{
+    border-color:transparent !important ;
+}
 .dropdown-item:hover
 {
     background-color: transparent;
