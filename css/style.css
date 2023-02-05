@@ -63,6 +63,15 @@ a:hover {
     height: 70px !important;
 }
 
+.logoImage h6
+{
+    font-size: 12px;
+}
+.logoImage:hover
+{
+    color: black;
+}
+
 
 /* Navbar */
 nav {
@@ -73,7 +82,7 @@ nav {
 
 nav li {
     font-size: 18px;
-    font-family: "BalooRegular";
+    font-family: "Balooular";
     width: fit-content;
     white-space: nowrap;
 }
@@ -90,7 +99,10 @@ nav li a {
 }
 
 
-
+.dropdown-item:hover
+{
+    background-color: transparent;
+}
 
 /* Navbar Media Query */
 @media (max-width: 1365px) {
